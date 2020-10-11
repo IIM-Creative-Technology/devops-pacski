@@ -61,5 +61,5 @@ Route::prefix('/user')->group(function (){
     Route::post('/create', 'UserController@create')
         ->name('users.create');
     Route::get('/index', 'UserController@index')
-        ->name('users.index');
+        ->name('users.index')
 });
